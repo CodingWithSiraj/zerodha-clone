@@ -1,16 +1,13 @@
-
-
+import HomePage from "./landing_page/home/HomePage";
+import Signup from "./landing_page/signup/Signup";
 
 function App() {
   return (
     <>
-      
-    <div>
-      <h1>heloo world</h1>
-    </div>
-  
+      <HomePage />
+      <Signup/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
